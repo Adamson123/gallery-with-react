@@ -3,7 +3,7 @@ export default {
   content: [
     "./src/*.{html,jsx}",
     "./src/Practice Website/*.{html,jsx}",
-    "./src/practice react/*.{html,jsx}",
+    "./src/components/*.{html,jsx}",
   ],
   theme: {
     screens: {

@@ -187,16 +187,25 @@ function Media(props) {
                 border-gray-600 m-[0.5px] cursor-pointer rounded`}
               >
                 <div
-                  className={`mediaHover ${
+                  className={`
+                  mediaHover
+                   ${
                     onSelect ? "hidden" : "visible"
-                  } absolute top-0 bottom-0
-                 right-0 left-0 bg-[rgba(0,0,0,0.7)] flex items-center justify-center opacity-0`}
+                  } 
+                  absolute top-0 
+                  bottom-0
+                  right-0
+                  left-0
+                  bg-[rgba(0,0,0,0.7)] 
+                  flex items-center
+                  justify-center opacity-0`}
                 >
                   <span className="bi-arrows-expand"></span>
                 </div>
                 <span
                   className={`${
-                    onSelect && (p.checked ? "bi-check-circle-fill" : " bi-circle")
+                    onSelect &&
+                    (p.checked ? "bi-check-circle-fill" : " bi-circle")
                   } absolute top-[2px] left-[5px] text-gray-600 font-bold`}
                 ></span>
                 {/* return a image element if the file type is image else return a video element */}
