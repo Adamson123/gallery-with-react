@@ -30,6 +30,10 @@ body {
   opacity: 1;
 }
 
+.mediaEle{
+  object-fit:cover;
+}
+
 @keyframes slide {
   0% {
     transform: translateX(0);
