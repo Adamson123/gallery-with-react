@@ -213,7 +213,7 @@ function Media(props) {
                   <img
                     src={p.path}
                     alt=""
-                    className=" object-contain w-full h-full"
+                    className=" object-cover w-full h-full"
                   />
                 ) : (
                   <video
