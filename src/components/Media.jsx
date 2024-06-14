@@ -213,13 +213,13 @@ function Media(props) {
                   <img
                     src={p.path}
                     alt=""
-                    className=" object-contain w-full h-full"
+                    className="mediaEle w-full h-full"
                   />
                 ) : (
                   <video
                     src={p.path}
                     alt=""
-                    className=" object-contain w-full h-full"
+                    className="mediaEle w-full h-full"
                     // ref={(el) => (vidRef.current[index] = el)}
                   />
                 )}
