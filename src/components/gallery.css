@@ -9,13 +9,13 @@ body {
   transform: translateX(-100%);
   transition: transform 0.5s, opacity 0.2s;
   /* animation: slide 1s ease;  */
-  opacity: 0;
+  opacity: 1;
 }
 .slidePicDes {
   transform: translateX(100%);
   transition: transform 0.5s, opacity 0.2s;
   /* animation: slide 0.5s ease; */
-  opacity: 0;
+  opacity: 1;
 }
 
 .slideBtn {
